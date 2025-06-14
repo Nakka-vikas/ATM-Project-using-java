@@ -13,7 +13,9 @@ public class AtmMain {
 		int atmnumber=12345;
 		int atmpin=123;
 		Scanner sc=new Scanner(System.in);
+		System.out.println("********************************");
 		System.out.println("welcome to ATM Machine!");
+		System.out.println("********************************");
 		System.out.print("enter atm number: ");
 		int atmnumber1=sc.nextInt();
 		System.out.print("enter pin: ");
@@ -23,6 +25,7 @@ public class AtmMain {
 			while(true)
 			{
 				System.out.println("1.View Available Balance\n2.Withdraw Amount\n3.Deposit amount\n4.View MiniStatement\n5.exit");
+				System.out.println("----------------------------------------------");
 				System.out.println("enter choice :");
 				int ch=sc.nextInt();
 				if(ch==1)
